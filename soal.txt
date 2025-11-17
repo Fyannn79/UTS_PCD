@@ -5,8 +5,6 @@ Baca satu citra grayscale (.jpg atau .png).
 Terapkan rumus:
 Negatif: G=255−FG = 255 - FG=255−F
 Logaritmik: G=c×log⁡(1+F)G = c \times \log(1 + F)G=c×log(1+F), dengan c=255/log⁡(1+max⁡(F))c = 255 / \log(1 + \max(F))c=255/log(1+max(F))
-
-
 Tampilkan keempat gambar: citra asli, negatif, logaritmik, dan histogram masing-masing.
 Berikan Analisa:
 Jelaskan perbedaan persebaran nilai keabuan antara ketiga citra.
@@ -14,20 +12,6 @@ Kapan transformasi logaritmik lebih bermanfaat dibanding negatif?
 Pengerjaan : 
 Kerjakan di google collab, upload di github
 Analisa ditulis pada .txt dan upload pada github
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Soal No. 2 (CPMK. 4)
 Gunakan tiga kernel berbeda untuk menunjukkan efek konvolusi pada citra yang sama:
 Jenis Filter
@@ -42,7 +26,6 @@ Deteksi tepi
 Band Pass Filter (BPF)
 [[0,-1,0],[-1,5,-1],[0,-1,0]]
 Penajaman (sharpening)
-
 Langkah:
 Terapkan ketiga kernel pada gambar yang sama
 Tampilkan hasil dalam satu figure berisi empat gambar: original, LPF, HPF, dan BPF.
@@ -52,12 +35,8 @@ Jelaskan hubungan antara domain spasial dan domain frekuensi dari ketiga jenis f
 Pengerjaan : 
 Kerjakan di google collab, upload di github
 Analisa ditulis pada .txt dan upload pada github
-
-
-
 Soal No. 3 (CPMK. 1, CP. 2 dan CPMK. 3)
 Diketahui citra grayscale 3×3:
-
 100
 90
 80
@@ -67,10 +46,7 @@ Diketahui citra grayscale 3×3:
 30
 20
 10
-
-
 Gunakan kernel High Pass Filter (HPF) berikut:
-
 -1
 -1
 -1
@@ -80,10 +56,7 @@ Gunakan kernel High Pass Filter (HPF) berikut:
 -1
 -1
 -1
-
-
 Hitung hasil konvolusi .
 Tulis Tangan langkah perhitungan dan hasil akhirnya.
-
 Pengerjaan : 
 Kerjakan di kertas, foto upload pada google drive masing-masing 
